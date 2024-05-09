@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Day2</name>
+    </assembly>
+    <members>
+        <member name="M:Day2.Controllers.DepartmentsController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            get department by page size and page number
+            </summary>
+            <returns>
+            pageNumber, pageSize, pagesNumber and departments list 
+            </returns>
+            <remarks>
+            request example:
+            GET /api/departments
+            </remarks>
+        </member>
+        <member name="M:Day2.Controllers.StudentsController.GetById(System.Int32)">
+            <summary>
+            get student by id
+            </summary>
+            <param name="id">id of the student</param>
+            <returns>student object</returns>
+            <remarks>
+            request example:
+            GET /api/students/1
+            </remarks>
+        </member>
+    </members>
+</doc>
