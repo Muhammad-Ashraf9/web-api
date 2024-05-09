@@ -174,9 +174,7 @@ namespace Day2.Controllers
             foundStd.StLname = body.StLname;
             foundStd.StAddress = body.StAddress;
             foundStd.StAge = body.StAge;
-            Console.WriteLine($"before id: {foundStd.DeptId}");
             foundStd.DeptId = body.DeptId;
-            Console.WriteLine($"after id: {foundStd.DeptId}");
 
 
             db.Students.Update(foundStd);
